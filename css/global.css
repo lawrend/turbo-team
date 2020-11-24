@@ -1016,6 +1016,63 @@ html {
     margin:4.8rem 0
 }
 
+.aboutme-header {
+    text-transform: uppercase;
+    margin-bottom:4.8rem
+}
+
+.aboutme-p {
+    margin-top:3.2rem
+}
+
+.aboutme-link {
+    text-decoration: none;
+    color:#ff4133
+}
+
+.aboutme-img {
+    height:25.6rem
+}
+
+.aboutme-list {
+    list-style-type:none
+}
+
+.aboutme-list__item:first-child {
+    margin-top: 0.8rem
+}
+
+@media only screen and (max-width: 37.5em) {
+    .ft-section__left--footer {
+        position:relative
+    }
+}
+
+.ft-section__right--footer {
+    text-align:right
+}
+
+.aboutme-container {
+    max-width: 89.6rem;
+    margin: auto;
+    padding: 6.4rem;
+    font-size: 2rem;
+    line-height:1.6
+}
+
+@media only screen and (max-width: 56.25em) {
+    .aboutme-container {
+        padding:6.4rem 12.8rem
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .aboutme-container {
+        padding:12.8rem 6.4rem
+    }
+}
+
+
 @media only screen and (max-width: 56.25em) {
   .container {
     height: auto;
