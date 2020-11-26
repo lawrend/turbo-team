@@ -1,14 +1,18 @@
+html {
+    font-size:62.5%
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color:#3c3c3c;
-    /* widows: 100vw; */
     width: 100vw;
     height: 100vh;
     box-sizing:border-box;
     background-color: #eef;
 }
 
+/*-- KEYFRAMES --*/ 
 @keyframes moveInLeft {
     0% {
         opacity: 0;
@@ -73,10 +77,7 @@ body {
     box-sizing:inherit
 }
 
-html {
-    font-size:62.5%
-}
-
+/*-- MEDIA BREAKS --*/
 @media only screen and (max-width: 75em) {
     html {
         font-size:56.5%
@@ -100,12 +101,6 @@ html {
         font-size:75%
     }
 }
-
-/* body { */
-/*     widows: 100vw; */
-/*     height: 100vh; */
-/*     box-sizing:border-box */
-/* } */
 
 @media only screen and (max-width: 75em) {
     .mobile {
@@ -135,12 +130,6 @@ html {
   background-color: #ff4133;
   color:white
 }
-
-/* body { */
-/*   font-family: "Roboto", sans-serif; */
-/*   font-weight: 400; */
-/*   color:#3c3c3c */
-/* } */
 
 .heading-primary {
   font-size: 6.4rem;
